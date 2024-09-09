@@ -1,0 +1,14 @@
+spring:
+  application.name: spring-boot-with-web-client
+
+integrations:
+  backend-services:
+    json-placeholder:
+      base-url: https://jsonplaceholder.typicode.com
+      services:
+        posts: /posts
+        comments: /comments
+server:
+  servlet:
+    context-path: /integration
+
